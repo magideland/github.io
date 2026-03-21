@@ -3,3 +3,18 @@ nav{
   height:70px;
    background-color: dimgray;
 }
+
+li {
+  list-style: none;
+}
+
+ul{
+  display:flex;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+}
