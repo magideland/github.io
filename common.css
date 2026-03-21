@@ -18,3 +18,8 @@ a {
   color: white;
   margin-right: 35px;
 }
+
+.logo 
+{
+   background-image: url('/assets/images/your-background-image.png');     
+}
