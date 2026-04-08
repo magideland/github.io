@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Members</title>
+    <title>マジカル超DXランド</title>
+    <link rel="stylesheet" href="common.css">
 </head>
 <body>
-    <h1>Members Page</h1>
-    <p>This page will contain information about the members.</p>
+
+    <header id="nav-menu">
+    </header>
+    <script>
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => document.querySelector("#nav-menu").innerHTML = data);
+    </script>
+    <!-- メインコンテンツ -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>マジカル超DXランド</h2>
+                <img src="img/マジデラ_ロゴ_オリジナル.png" alt="ロゴの名前">
+                <p>そめやみつを中心として、2017年に結成した演劇ユニット「チームドリーム」から2023年に再結成した演劇コーラス集団です。「虚構の希望をぶち壊す」ことを目標に物語を通して、ともに泣き、もがき苦しみ、ひょっとするとトラウマになってしまうかもしれないディストピアを提供します。読みはマジカルスーパーデラックスランドです。マジデラと呼んで下さい。</p>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
